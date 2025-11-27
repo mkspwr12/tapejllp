@@ -55,6 +55,14 @@ body {
     animation: fadeInDown 1s ease-out;
 }
 
+.hero-logo {
+    max-width: 280px;
+    height: auto;
+    margin-bottom: 15px;
+    animation: fadeInDown 1s ease-out;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+}
+
 .hero .tagline {
     font-size: 1.5rem;
     opacity: 0.95;
@@ -410,6 +418,13 @@ footer {
 
 .footer-brand p {
     color: rgba(255, 255, 255, 0.7);
+}
+
+.footer-logo {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+    filter: brightness(0) invert(1);
 }
 
 .footer-links {
