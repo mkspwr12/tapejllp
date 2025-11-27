@@ -5,70 +5,221 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tapej LLP - Measurement Solutions</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="container">
+    <!-- Hero Section with Industrial Background -->
+    <header class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
             <h1>Tapej LLP</h1>
-            <p class="tagline">Industrial Measurement Solutions</p>
+            <p class="tagline">Precision Industrial Measurement Solutions</p>
+            <a href="#contact-info" class="cta-button">Get in Touch</a>
         </div>
     </header>
 
     <main class="container">
-        <section class="contact-info">
-            <h2>Contact Us</h2>
-            <div class="contact-details">
-                <div class="address">
-                    <h3>Address</h3>
-                    <p>L-90/164, 1st Floor, Street No 7</p>
-                    <p>Mahipalpur Extn, New Delhi – 110 037</p>
+        <!-- Solutions Section with Icons -->
+        <section class="solutions">
+            <h2>Our Solutions</h2>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <div class="solution-icon" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h3>Pressure Measurement</h3>
+                    <p>High-precision pressure gauges and transmitters for industrial applications</p>
                 </div>
-                <div class="contact">
-                    <h3>Get in Touch</h3>
-                    <p>Email: <a href="mailto:sales@tapej.com">sales@tapej.com</a></p>
-                    <p>Phone: <a href="tel:+919873079006">+91 – 987307 9006</a></p>
+                <div class="solution-card">
+                    <div class="solution-icon" style="background: linear-gradient(135deg, #3498db, #2980b9);">
+                        <i class="fas fa-balance-scale"></i>
+                    </div>
+                    <h3>Differential Pressure</h3>
+                    <p>Advanced differential pressure measurement systems</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon" style="background: linear-gradient(135deg, #2ecc71, #27ae60);">
+                        <i class="fas fa-ruler-vertical"></i>
+                    </div>
+                    <h3>Level Measurement</h3>
+                    <p>Accurate level measurement for tanks and vessels</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon" style="background: linear-gradient(135deg, #9b59b6, #8e44ad);">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Flow Measurement</h3>
+                    <p>Reliable flow meters for liquid and gas applications</p>
+                </div>
+                <div class="solution-card">
+                    <div class="solution-icon" style="background: linear-gradient(135deg, #f39c12, #e67e22);">
+                        <i class="fas fa-thermometer-half"></i>
+                    </div>
+                    <h3>Temperature Measurement</h3>
+                    <p>Industrial temperature sensors and transmitters</p>
                 </div>
             </div>
         </section>
 
+        <!-- Industries Section with Images -->
+        <section class="industries">
+            <h2>Industries We Serve</h2>
+            <div class="industries-grid">
+                <div class="industry-card">
+                    <div class="industry-image" style="background-image: url('https://images.unsplash.com/photo-1586953208448-b95a79798f07?w=400&h=300&fit=crop');">
+                        <div class="industry-overlay">
+                            <i class="fas fa-oil-can"></i>
+                        </div>
+                    </div>
+                    <h3>Oil Extraction</h3>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-image" style="background-image: url('https://images.unsplash.com/photo-1518709766631-a6a7f45921c3?w=400&h=300&fit=crop');">
+                        <div class="industry-overlay">
+                            <i class="fas fa-industry"></i>
+                        </div>
+                    </div>
+                    <h3>Refinery</h3>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-image" style="background-image: url('https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=400&h=300&fit=crop');">
+                        <div class="industry-overlay">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                    </div>
+                    <h3>Power Plant</h3>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-image" style="background-image: url('https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?w=400&h=300&fit=crop');">
+                        <div class="industry-overlay">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                    </div>
+                    <h3>Chemical</h3>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-image" style="background-image: url('https://images.unsplash.com/photo-1584824388878-5fa18b8e8a53?w=400&h=300&fit=crop');">
+                        <div class="industry-overlay">
+                            <i class="fas fa-tint"></i>
+                        </div>
+                    </div>
+                    <h3>Waste Water Treatment</h3>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-image" style="background-image: url('https://images.unsplash.com/photo-1585435557343-3b092031a831?w=400&h=300&fit=crop');">
+                        <div class="industry-overlay">
+                            <i class="fas fa-pills"></i>
+                        </div>
+                    </div>
+                    <h3>Pharmaceuticals</h3>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-image" style="background-image: url('https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=400&h=300&fit=crop');">
+                        <div class="industry-overlay">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                    </div>
+                    <h3>Pumping Stations</h3>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-image" style="background-image: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop');">
+                        <div class="industry-overlay">
+                            <i class="fas fa-cubes"></i>
+                        </div>
+                    </div>
+                    <h3>Sugar</h3>
+                </div>
+                <div class="industry-card">
+                    <div class="industry-image" style="background-image: url('https://images.unsplash.com/photo-1586075010923-2dd4570fb338?w=400&h=300&fit=crop');">
+                        <div class="industry-overlay">
+                            <i class="fas fa-scroll"></i>
+                        </div>
+                    </div>
+                    <h3>Paper</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us Section -->
+        <section class="why-us">
+            <h2>Why Choose Tapej LLP?</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-award"></i></div>
+                    <h3>Quality Assurance</h3>
+                    <p>Industry-leading precision and reliability</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-handshake"></i></div>
+                    <h3>Expert Support</h3>
+                    <p>Dedicated technical assistance</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-truck"></i></div>
+                    <h3>Fast Delivery</h3>
+                    <p>Timely delivery across India</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Custom Solutions</h3>
+                    <p>Tailored to your specific needs</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Leadership Section -->
         <section class="leadership">
             <h2>Leadership</h2>
             <div class="leader-card">
-                <h3>Anoop Anand</h3>
-                <p class="title">Chief Marketing Officer</p>
+                <div class="leader-avatar">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="leader-info">
+                    <h3>Anoop Anand</h3>
+                    <p class="title">Chief Marketing Officer</p>
+                    <p class="description">Leading our vision to deliver world-class industrial measurement solutions</p>
+                </div>
             </div>
         </section>
 
-        <section class="solutions">
-            <h2>Our Solutions</h2>
-            <ul>
-                <li>Pressure Measurement</li>
-                <li>Differential Pressure Measurement</li>
-                <li>Level Measurement</li>
-                <li>Flow Measurement</li>
-                <li>Temperature Measurement</li>
-            </ul>
-        </section>
-
-        <section class="industries">
-            <h2>Industries We Serve</h2>
-            <ul>
-                <li>Oil Extraction</li>
-                <li>Refinery</li>
-                <li>Power Plant</li>
-                <li>Chemical</li>
-                <li>Waste Water Treatment</li>
-                <li>Pharmaceuticals</li>
-                <li>Pumping Stations</li>
-                <li>Sugar</li>
-                <li>Paper</li>
-            </ul>
+        <!-- Contact Section -->
+        <section class="contact-info" id="contact-info">
+            <h2>Contact Us</h2>
+            <div class="contact-details">
+                <div class="contact-card address">
+                    <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                    <h3>Our Address</h3>
+                    <p>L-90/164, 1st Floor, Street No 7</p>
+                    <p>Mahipalpur Extn, New Delhi – 110 037</p>
+                </div>
+                <div class="contact-card email-card">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <h3>Email Us</h3>
+                    <p><a href="mailto:sales@tapej.com">sales@tapej.com</a></p>
+                </div>
+                <div class="contact-card phone-card">
+                    <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+                    <h3>Call Us</h3>
+                    <p><a href="tel:+919873079006">+91 – 987307 9006</a></p>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 Tapej LLP. All rights reserved.</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Tapej LLP</h3>
+                    <p>Industrial Measurement Solutions</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="mailto:sales@tapej.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 Tapej LLP. All rights reserved.</p>
         </div>
     </footer>
 </body>
