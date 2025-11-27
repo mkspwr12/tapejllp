@@ -24,10 +24,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1920&h=600&fit=crop');
+    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200&h=400&fit=crop&q=80');
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
 }
 
 .hero-overlay {
